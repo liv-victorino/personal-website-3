@@ -1,0 +1,55 @@
+body{
+    color:white;
+    background-color: black;
+    background-image: url('images/tartain.jpg');
+    background-position: center center;
+}
+
+.info{
+    display:flex;
+    flex-direction:column;
+    max-width:90%;
+    margin:auto;
+    padding-top: 0px;
+
+}
+.info-col{
+
+    margin:auto;
+
+}
+
+.header{
+    font-family:'Courier New', Courier, monospace
+}
+
+.legit-marquee {
+    font-family:"Courier New"
+}
+
+.svg-marquee{
+    width:70%;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    
+}
+.middle-col-landing{
+    width:70%;
+    display:block;
+    margin:auto;
+    
+}
+
+.SVG-logo{
+    display:block;
+    margin:auto;
+    max-width:70%;
+}
+
+.icon{
+    max-width:20px;
+}
