@@ -1,0 +1,194 @@
+html{
+    scroll-behavior: smooth;
+}
+.centerfold{
+    margin: auto;
+    width: 80%;
+}
+.iframe-container{
+    max-width:700px;
+}
+
+.content{
+    padding-left: 3rem;
+}
+a {
+    text-decoration: none;
+}
+
+.video-container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+}
+
+.video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+.press-menu{
+    display: flex;
+    flex-direction: column;
+}
+
+.epk-image{
+    display:inline-block;
+    max-width:15rem;
+    margin-bottom:1rem;
+}
+
+.epk-image.stack{
+    width:100%;
+
+}
+.quote-text{
+    font-size: x-large;
+    text-align: center;
+}
+.attribution{
+    text-align: center;
+}
+
+
+.header{
+    font-family:'Fasthand','Garamond';
+    font-size: 30px;
+}
+
+ul{
+    padding-left: 1rem;
+}
+
+.menu-item{
+    font-style:italic;
+    font-size:large;
+    margin-left:1rem;
+    margin-right:1rem;
+
+}
+
+.press-link{
+    text-decoration: underline;
+}
+
+body{
+    font-family: 'Georgia', Courier, monospace;
+    color:white;
+    background-color: black;
+}
+/* container of each major section music, press, biograhy, etc. */
+
+.info-section {
+    margin-top:4rem;
+    width:80%;
+    font-size: medium;
+    line-height: 25px;
+}
+
+.press-menu{
+    flex-direction: row;
+    justify-content: center; 
+    margin-bottom:2rem;
+}
+
+.centerfold.nav-container{
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+
+.page-title{
+    text-align: center;
+    font-size: 4rem;
+}
+
+#landing-photo{
+    width:90%;
+}
+
+
+a{
+    color:white;
+}
+
+li{
+    margin-bottom:.5rem;
+}
+
+ul{
+    margin:.4rem;
+    padding-left:3rem;
+}
+
+h2{
+    margin:.2rem;
+}
+
+body{
+    margin:2rem;
+
+}
+@media only screen and (max-width: 780px) {
+
+
+    body{
+        margin:.5rem;
+    
+    }
+    .content{
+        padding-left: 1rem;
+    }
+    
+    .page-title{
+        font-size:3rem;
+    }
+    .menu-item{
+        font-style:italic;
+        font-size:small;
+    }
+
+    .nav-container{
+      display:flex;
+    }
+
+}
+
+@media only screen and (min-width: 780px) and (max-width: 1450px) {
+    .nav-container{
+        display:flex;
+        max-height:14rem;
+        margin-bottom:2rem;
+    }
+
+
+}
+
+
+
+@media only screen and (min-width: 1450px) {
+
+
+    #landing-photo{
+        width:70%;
+    }
+
+    .nav-container{
+      display:flex;
+    }
+
+    .info-section{
+        width:70%;
+        font-size: large;
+
+    }
+
+
+}
