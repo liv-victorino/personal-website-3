@@ -19,8 +19,15 @@ body{
 
 }
 
+a{
+    color:white;
+    text-decoration:none;
+}
+
 .header{
-    font-family:'Courier New', Courier, monospace
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 300;
+    text-align: center;
 }
 
 .legit-marquee {
@@ -52,4 +59,14 @@ body{
 
 .icon{
     max-width:20px;
+    max-height:20px;
+
+}
+
+.icon-container{
+    justify-content: space-between;
+    display:flex;
+    width:100px;
+    align-items: center;
+    
 }
