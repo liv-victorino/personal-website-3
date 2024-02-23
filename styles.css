@@ -14,20 +14,25 @@ body{
 
 }
 .info-col{
-
+    display:flex;
+    flex-direction:column;
     margin:auto;
 
 }
 
 a{
-    color:white;
-    text-decoration:none;
+    color:black;
+    text-decoration:underline;
 }
 
 .header{
     font-family:'Courier New', Courier, monospace;
-    font-weight: 300;
+    font-weight: 600;
     text-align: center;
+    margin-bottom:10px;
+    color:black;
+    background-color: white;
+    width:200px;
 }
 
 .legit-marquee {
@@ -35,7 +40,7 @@ a{
 }
 
 .svg-marquee{
-    width:70%;
+    width:40%;
     position: absolute;
     margin-left: auto;
     margin-right: auto;
@@ -45,7 +50,7 @@ a{
     
 }
 .middle-col-landing{
-    width:70%;
+    width:40%;
     display:block;
     margin:auto;
     
@@ -68,5 +73,19 @@ a{
     display:flex;
     width:100px;
     align-items: center;
+    margin:auto;
     
+}
+
+@media only screen and (max-width: 900px) {
+    .svg-marquee{
+        width:100%;
+
+        
+    }
+
+    .middle-col-landing{
+        width:100%;
+        
+    }
 }
