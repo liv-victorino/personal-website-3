@@ -26,17 +26,17 @@ a{
 }
 
 .header{
-    font-family:'Courier New', Courier, monospace;
+    font-family: "Pirata One";
     font-weight: 600;
     text-align: center;
     margin: 0px;
     color:black;
-    background-color: white;
+    background-color: red;
     width:200px;
 }
 
 .legit-marquee {
-    font-family:"Courier New"
+    font-family:"Pirata One"
 }
 
 .svg-marquee{
