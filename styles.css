@@ -4,7 +4,12 @@ body{
     background-image: url('images/tartain.jpg');
     background-position: center center;
 }
+.headerLink{
+    font-size: small;
+    text-decoration: none;
+    color:white;
 
+}
 .info{
     display:flex;
     flex-direction:column;
@@ -17,7 +22,7 @@ body{
     display:flex;
     flex-direction:column;
     margin:auto;
-
+    width:500px;
 }
 
 a{
@@ -29,7 +34,8 @@ a{
     font-family: "Pirata One";
     font-weight: 600;
     text-align: center;
-    margin: 0px;
+    margin: auto;
+
     color:black;
     background-color: rgb(255, 210, 210);
     width:200px;
@@ -67,7 +73,11 @@ a{
     max-height:40px;
 
 }
-
+#concert-container{
+    display: flex;
+    flex-direction: column;
+    width:500px;
+}
 .icon-container{
 
 
@@ -86,16 +96,36 @@ a{
 
         
     }
+    .icon-container{
 
+
+        margin: auto;
+        padding-top:20px;
+        padding-bottom:20px;
+
+        
+    }
+
+    .headerLink{
+        font-size: medium;
+        text-decoration: none;
+        color:white;
+    
+    }
     .middle-col-landing{
         width:100%;
         
+    }
+    #concert-container{
+
+        width:100%;
     }
     .info-col{
         width:100%;
     }
     .header{
         margin:auto;
-        width:100%;        
+        width:100%;    
+        font-size:3rem;
     }
 }
