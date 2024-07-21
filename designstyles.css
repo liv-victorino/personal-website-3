@@ -1,0 +1,393 @@
+/*---------- BODY ----------*/
+
+body{
+    max-width: 2000px;
+  }
+  h2, h1{
+    margin:0px;
+    color: rgb(250, 96, 96);
+  }
+  .white-text{
+    color:white;
+  }
+  
+  .oversize{
+    font-size:60px;
+  }
+  
+  .body-font{
+    font-size: 18px;
+  }
+  body, html {
+    padding:0;
+    margin:0;
+  }
+  #media-device-landing{
+    width:100%;
+  }
+  
+  .red-block{
+    color:white;
+    width:100%;
+    background-color: rgb(49, 10, 27)
+  }
+  #landing-background-stripe{
+    
+    width:100%;
+    height:10px;
+    background-color: rgb(132, 40, 53)
+  }
+  /*---------- BUTTONS ----------*/
+  
+  a {
+      text-decoration: none;
+  }
+  .visit-client-button{
+      width:100px;
+      font-weight: bold;
+      color:black;
+      line-height: 37.65px;
+      box-sizing: border-box;
+      background-color: white;
+      display: block;
+      text-align: center;    
+      background-position: center;
+      margin: auto;
+      margin-top:2rem;
+      padding: 0px 10px 0px 10px;
+      border:2px rgb(255, 217, 173, 0.388) solid;
+      border-top-style:none;
+      border-right-style:none;
+      background-color: rgb(255, 252, 248);
+  
+  
+    }
+  
+    .visit-client-button:hover{
+      text-decoration: underline;
+    }
+  
+  
+    /*---------- FONTS ----------*/
+  
+    body{
+      font-family: 'Inter','Calibri';
+  
+  }
+  
+    /*---------- STYLES ----------*/
+  
+    .gd-card{
+      width:200px;
+      height:200px;
+      object-fit: cover; object-position: 0 0;
+
+    }
+    .gd-card-poster{
+      width:230px;
+      height:295px;
+      object-fit: cover; object-position: 0 0;
+
+    }
+  
+   #client-stripe{
+    background-image: url(../images/ClientStripeTransparent.png);
+    background-size: cover;
+   }
+   #client-quotes{
+    display:flex;
+    flex:4 2 30px;
+   }
+  
+  .red-block{
+    background-image: url(../images/ClientStripeTransparent.png);
+    background-size: cover;
+  
+  }
+  
+   .landing-heading{
+    text-align: center;
+    font-size: 20px;
+    margin: 10px;
+   }
+  
+    
+    #tagline-blurb{
+      text-align: center;
+    }
+  
+  
+    .menu-li{
+      font-weight: 900;
+    }
+  
+    .menu-a{
+      text-decoration: none;
+      color:black;
+    }
+    .menu-a:hover{
+      text-decoration: underline;
+    }
+  
+  
+  
+  
+  
+  
+  
+  
+  /*---------- CONTAINERS ----------*/
+  
+  .container{
+      max-width:380px;
+      margin: auto;
+      padding: 20px 15px 20px 15px;
+  }
+  .center-blurb{
+    text-align: center;
+    margin:10px;
+  }
+  
+  
+  
+  .landing-content{
+    color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    padding-bottom: 40px;
+  }
+  
+  .landing-item{
+    margin:10px;
+    
+  }
+    .cards{
+      display:flex;
+      flex-direction: column;
+    }
+  
+    .landing-card{
+      margin:0px 0px 50px 0px;
+  
+    }
+  
+  #landing-item-left{
+    justify-content: center;
+    color: white;
+    border-radius: 1px;
+  
+  }
+  #landing-item-right{
+    text-align: right;
+  }
+  
+  .landing-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .photo-and-description-container{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      margin-bottom: 50px;
+  }
+  
+  .square-image-container{
+      height: 340px;
+      width: 340px;
+      background-image: url(../images/LivVictorinoSquare.jpg);
+      background-size: 100% 100%;
+      align-items: flex-end;
+      margin:auto;
+      margin-bottom:40px;
+  }
+      
+  .square-image-container-yuelan{
+    height: 340px;
+    width: 340px;
+    background-image: url(../images/Yuelan.jpg);
+    background-size: 100% 100%;
+    align-items: flex-end;
+    margin:auto;
+    margin-bottom:40px;
+}
+.square-image-container-ponzi{
+    height: 340px;
+    width: 340px;
+    background-image: url(../images/ponzi.png);
+    background-size: 100% 100%;
+    align-items: flex-end;
+    margin:auto;
+    margin-bottom:40px;
+}
+    
+
+  
+  /*tablet*/
+  @media only screen and (min-width: 710px) and (max-width: 1024px){
+      .container{
+          max-width:800px;
+      }
+      .landing-card{
+        max-width:200px;
+      }
+      .photo-and-description-container{
+          flex-direction: column;
+  
+      }
+      .landing-item{
+        align-items: normal;
+      }
+  
+      .cards{
+        flex-direction: row;
+        justify-content: space-around;
+      }
+   #landing-item-right{
+    flex-direction: column-reverse;
+    align-items: flex-end;
+   
+   }
+  
+  }
+  
+  /*desktop*/
+  @media only screen and (min-width: 1025px){
+      .container{
+          max-width:1265px;
+          padding-left: 36px;
+          padding-right: 36px;
+      }
+      .landing-card{
+        max-width:300px;
+      }
+      
+      .cards{
+        justify-content: space-around;
+      }
+      .photo-and-description-container{
+          flex-direction: row;
+          justify-content: space-evenly;
+  
+      
+      }
+      #landing-item-left{
+        max-width:33%;
+      }
+      .cards{
+        flex-direction: row;
+      }
+      #tagline{
+        margin: 30px 0px 0px 0px;
+      }
+  
+      #tagline-blurb{
+        margin: 0px 0px 0px 0px;
+        text-align: left;
+      }
+      
+      .landing-item{
+        flex: 1;
+        align-items: normal;
+      }
+      .landing-content{
+  
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+      }
+          
+      .card-description{
+          max-width:300px
+      }
+  
+      .square-image-container{
+          height: 400px;
+          width: 400px;
+          margin:0;
+  
+      }
+      .square-image-container-yuelan{
+        height: 400px;
+        width: 400px;
+        margin:0;
+
+    }
+    .square-image-container-ponzi{
+        height: 400px;
+        width: 400px;
+        margin:0;
+
+    }
+
+
+    .square-image-container-ponzi::before {
+  
+        width: 400px;
+        height: 400px;
+        
+    }
+          
+      .square-image-container-yuelan::before {
+  
+          width: 400px;
+          height: 400px;
+          
+      }
+      
+      .square-image-container::before {
+  
+        width: 400px;
+        height: 400px;
+        
+    }
+  }
+  
+  
+  /*---------- IMAGE CONTAINERS ----------*/
+  
+  .landing-banner-icon{
+    max-width:30%;
+    display:inline-block;
+  }
+  
+  .landing-icon-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  
+  r{
+      background-image: url(../images/example-jpg.jpg);
+      height:500px;
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+  
+  .card-label{
+      bottom:0;
+      font-size: 30px;
+      font-weight:800;
+      z-index:11;
+      padding:0px 0px 0px 11px;
+      color:white;
+  }
+  
+  
+  
+  .thin-strip-art{
+      background-image: url(../images/backgroundStripRandom.jpg);
+  }
+  
+  /*tablet*/
+  @media only screen and (min-width: 500px) and (max-width: 1024px){
+  
+    #media-device-landing{
+      max-width:600px;
+    }
+  
+  
+  }

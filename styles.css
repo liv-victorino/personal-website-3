@@ -8,8 +8,8 @@ body{
     font-size: small;
     text-decoration: none;
     color:white;
-
 }
+
 .info{
     display:flex;
     flex-direction:column;
