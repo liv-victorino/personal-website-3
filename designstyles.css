@@ -1,7 +1,13 @@
 /*---------- BODY ----------*/
 
-body{
-    max-width: 2000px;
+
+image, .photo-and-description-container > *{
+  border-radius: 5px;
+}
+
+  body{
+  max-width: 2000px;
+
   }
   h2, h1{
     margin:0px;
@@ -71,7 +77,7 @@ body{
     /*---------- FONTS ----------*/
   
     body{
-      font-family: 'Inter','Calibri';
+      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   
   }
   
@@ -203,7 +209,15 @@ body{
       margin:auto;
       margin-bottom:40px;
   }
-      
+  .square-image-container-jhh{
+    height: 340px;
+    width: 340px;
+    background-image: url(../images/jhh.png);
+    background-size: 100% 100%;
+    align-items: flex-end;
+    margin:auto;
+    margin-bottom:40px;
+}
   .square-image-container-yuelan{
     height: 340px;
     width: 340px;
@@ -309,6 +323,12 @@ body{
           margin:0;
   
       }
+      .square-image-container-jhh{
+        height: 400px;
+        width: 400px;
+        margin:0;
+
+    }
       .square-image-container-yuelan{
         height: 400px;
         width: 400px;
@@ -336,7 +356,12 @@ body{
           height: 400px;
           
       }
-      
+      .square-image-container-jhh::before {
+  
+        width: 400px;
+        height: 400px;
+        
+    }
       .square-image-container::before {
   
         width: 400px;
