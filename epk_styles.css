@@ -39,7 +39,7 @@ a {
 
 .epk-image{
     display:inline-block;
-    max-width:15rem;
+    max-width: 20rem;
     margin-bottom:1rem;
 }
 
@@ -59,6 +59,7 @@ a {
 .header{
     font-family: 'Caveat', 'Garamond';
     font-size:40px;
+    line-height:45px;
 
 }
 .title{
@@ -91,6 +92,7 @@ body{
 .info-section {
     margin-top:4rem;
     width:80%;
+    
     font-size: medium;
     line-height: 25px;
 }
@@ -118,6 +120,8 @@ body{
 }
 
 
+
+
 a{
     color:white;
 }
@@ -139,6 +143,7 @@ body{
     margin:2rem;
 
 }
+
 @media only screen and (max-width: 780px) {
 
 
@@ -162,6 +167,8 @@ body{
       display:flex;
     }
 
+
+
 }
 
 @media only screen and (min-width: 780px) and (max-width: 1450px) {
@@ -171,7 +178,6 @@ body{
         margin-bottom:2rem;
     }
 
-
 }
 
 
@@ -179,10 +185,10 @@ body{
 @media only screen and (min-width: 1450px) {
 
     .content{
-        max-width: 900px;
+        max-width: 700px;
     }
     #landing-photo{
-        max-width: 900px;
+        max-width: 600px;
     }
 
     .nav-container{
@@ -190,6 +196,9 @@ body{
     }
 
     .info-section{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
         width:70%;
         font-size: large;
 
