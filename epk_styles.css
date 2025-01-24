@@ -16,10 +16,14 @@ a {
     text-decoration: none;
 }
 
+iframe{
+    height: 250px;
+    width: 400px;
+}
+
 .video-container {
     position: relative;
     overflow: hidden;
-    width: 100%;
 }
 
 .video{
@@ -54,13 +58,34 @@ a {
 .attribution{
     text-align: center;
 }
+.headerLink{
+    font-size: medium;
+    text-decoration: none;
+    color:white;
 
+}
+.icon-container{
+
+
+    justify-content: space-between;
+    display:flex;
+    width:170px;
+    min-height:80px;
+    align-items: center;
+    margin:auto;
+    
+}
+.icon{
+    max-width:40px;
+    max-height:40px;
+
+}
 
 .header{
     font-family: 'Caveat', 'Garamond';
     font-size:40px;
     line-height:45px;
-
+    padding:0px 15px 0px 15px;
 }
 .title{
     font-family: 'Fasthand';
@@ -90,9 +115,9 @@ body{
 /* container of each major section music, press, biograhy, etc. */
 
 .info-section {
-    margin-top:4rem;
-    width:80%;
-    
+    display:flex;
+    flex-direction: column;
+    align-items: center;
     font-size: medium;
     line-height: 25px;
 }
@@ -117,6 +142,7 @@ body{
 
 #landing-photo{
     width:90%;
+    max-width: 700px;
 }
 
 
@@ -146,7 +172,15 @@ body{
 
 @media only screen and (max-width: 780px) {
 
+    .icon-container{
 
+
+        margin: auto;
+        padding-top:20px;
+        padding-bottom:20px;
+
+        
+    }
     body{
         margin:.5rem;
     
@@ -177,6 +211,19 @@ body{
         max-height:14rem;
         margin-bottom:2rem;
     }
+    .content{
+        max-width: 700px;
+
+    }
+    .info-section{
+        font-size: large;
+
+    }
+    iframe{
+        height: 500px;
+        width: 800px;
+    }
+    
 
 }
 
@@ -187,9 +234,6 @@ body{
     .content{
         max-width: 700px;
     }
-    #landing-photo{
-        max-width: 600px;
-    }
 
     .nav-container{
       display:flex;
@@ -199,10 +243,13 @@ body{
         display:flex;
         flex-direction: column;
         align-items: center;
-        width:70%;
         font-size: large;
 
     }
 
-
+    iframe{
+        height: 500px;
+        width: 800px;
+    }
+    
 }
