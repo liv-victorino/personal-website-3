@@ -57,8 +57,12 @@ a {
 
 
 .header{
-    font-family:'Fasthand','Garamond';
-    font-size: 30px;
+    font-family: 'Garamond';
+    font-size:40px;
+
+}
+.title{
+    font-family: 'Fasthand';
 }
 
 ul{
@@ -174,9 +178,11 @@ body{
 
 @media only screen and (min-width: 1450px) {
 
-
+    .content{
+        max-width: 900px;
+    }
     #landing-photo{
-        width:70%;
+        max-width: 900px;
     }
 
     .nav-container{
